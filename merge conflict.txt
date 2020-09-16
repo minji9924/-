@@ -1,0 +1,19 @@
+About merge conflict
+
+1. Merge conflict caused by competing line changes.
+
+You can only resolve merge conflicts on GitHub that are caused by competing line changes, such as when people make different changes to the same line of the same file on different branches in your Git repository.
+
+You can resolve simple merge conflicts that involve competing line changes on GitHub, using the conflict editor.
+
+
+2. For all other types of merge conflicts
+
+Competing line change merge conflicts
+
+Merge conflicts occur when competing changes are made to the same line of a file, or when one person edits a file and another person deletes the same file.
+To resolve a merge conflict caused by competing line changes, you must choose which changes to incorporate from the different branches in a new commit.
+
+Removed file merge conflicts
+
+To resolve a merge conflict caused by competing changes to a file, where a person deletes a file in one branch and another person edits the same file, you must choose whether to delete or keep the removed file in a new commit.
